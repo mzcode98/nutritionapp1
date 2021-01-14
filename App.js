@@ -7,7 +7,7 @@ export default function App() {
   const [text2, setText2] = useState('');
   return (
     <View style={styles.container}>
-      <Text>Smile Translator</Text>
+      <Text>Smile Translator!</Text>
       <StatusBar style="auto" />
       <TextInput
         style={{height: 40}}
@@ -18,7 +18,7 @@ export default function App() {
       <Text style={{padding: 10, fontSize: 42}}>
         {text1.split(' ').map((word) => word && ':)').join(' ')}
       </Text>
-      <Text>Frown Translator</Text>
+      <Text>Frown Translator!</Text>
       <StatusBar style="auto" />
       <TextInput
         style={{height: 40}}
